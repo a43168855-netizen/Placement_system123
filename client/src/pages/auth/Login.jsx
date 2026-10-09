@@ -53,7 +53,7 @@ export default function Login() {
         <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-blue-600 text-white shadow-xl shadow-blue-500/30 mb-4 ring-8 ring-blue-500/10">
           <GraduationCap className="w-8 h-8" />
         </div>
-        <h2 className="text-3xl font-extrabold text-white tracking-tight">PlacePro Portal</h2>
+        <h2 className="text-3xl font-extrabold text-white tracking-tight">Placement Portal</h2>
         <p className="mt-2 text-sm text-slate-400">
           Student Placement & Campus Recruitment Platform
         </p>

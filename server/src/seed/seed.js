@@ -22,11 +22,35 @@ const seedData = async () => {
 
     console.log('Seeding Users...');
 
-    // 1. Admin
+    // 1. Admin Accounts
     const admin = await User.create({
-      name: 'Dr. Ramesh Sharma',
+      name: 'Dr. Ramesh Sharma (Placement Director)',
       email: 'admin@placement.edu',
       password: 'AdminPassword@123',
+      role: 'admin',
+      status: 'active',
+    });
+
+    await User.create({
+      name: 'Placement Officer',
+      email: 'admin@placement.com',
+      password: 'Admin@123',
+      role: 'admin',
+      status: 'active',
+    });
+
+    await User.create({
+      name: 'System Admin',
+      email: 'admin@admin.com',
+      password: 'admin123',
+      role: 'admin',
+      status: 'active',
+    });
+
+    await User.create({
+      name: 'Admin',
+      email: 'admin@gmail.com',
+      password: 'admin123',
       role: 'admin',
       status: 'active',
     });
